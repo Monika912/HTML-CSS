@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project</title>
+    <style>
+        /* Add your CSS styles here */
+        h1{
+            color: aquamarine;
+            text-align: center;
+            font-size: 40px;
+            font-family: cursive;
+        }
+
+        input[type="checkbox"] {
+            display: none; /* Hide the actual checkbox */
+        }
+
+        #one{
+            margin-left: 250px;
+        }
+
+        #two{
+            margin-left: 300px;
+        }
+
+        #three{
+            margin-left: 400px;
+        }
+        
+        label {
+            padding: 10px 20px;
+            background-color: #F4E869;
+            color: #512B81;
+            cursor: pointer;
+            font-size: 20px;
+            display: inline-block;
+        }
+
+        /*to change the color when clicked on a checkbox*/
+       
+        #project1:checked + label {
+            background-color: #A8DF8E;
+        }
+
+        #project2:checked + label {
+            background-color: #A8DF8E;
+        }
+
+        #project3:checked + label {
+            background-color: #A8DF8E;
+        }
+
+        p {
+            display: none;
+            background-color: bisque;
+            border: 2px ridge black;
+            border-radius: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: crimson;
+            text-align: center;
+        }
+
+        /* Show the content associated with the checked checkbox */
+        #project1:checked ~ #p1,
+        #project2:checked ~ #p2,
+        #project3:checked ~ #p3 {
+            display: block;
+        }
+
+    </style>
+</head>
+<body style="background-image: url('m1.jpg');">
+    <h1>PROJECTS</h1>
+
+    <br><br>
+
+    <input type="checkbox" id="project1">
+    <label id="one" for="project1"><b>DETECTION OF ADULTERATION IN FRUITS USING DEEP LEARNING TECHNIQUES</b></label>
+    <p id="p1"><b>Fruits are essential for healthy life. The fruits we take should be pure, nutritious and free from any type of adulteration for proper maintenance of human health. The intake of any fruit substance is intended for the nourishment which is gained from it.Fruit adulteration system can detect the concentration of formalin content in the fruit. The manual system fails to detect the formaldehyde level accurately and the use of gas sensors in formalin detection is costly. This project aims to find how much percent the fruit is adulterated with the formalin and depicts the fruit is consumable or not. This model will be useful for the consumers to safe check the quality of the fruit. To get better results in the classification and identification of adulterated fruit, CNN architecture is used.</b></p>
+    
+    <br><br><br>
+    
+    <input type="checkbox" id="project2">
+    <label id="two" for="project2"><b>EFFICIENT AUTOMATION WITH LINUX COMMANDS AND CRONTAB</b></label>
+    <p id="p2"><b>Crontab is a utility on Unix and Unix-like operating systems that allows users to schedule and automate recurring tasks. The name “crontab” is derived from “cron”, which is a Unix utility used for scheduling jobs. A cronjob is a command or script scheduled to run automatically at a specified or interval on Unix and Unix-like operating systems. Cronjobs are created and managed using the crontab utility, which allows users to scheduled tasks to run at specific times or intervals. Jenkins is a open-source automation server that is used to automate parts of the software development process, including building, testing, and deploying software. It is a popular tool in the DevOps community and is used by many organizations to improve the speed and efficiency of their software development processes.</b></p>
+
+    <br><br><br>
+
+    <input type="checkbox" id="project3">
+    <label id="three" for="project3"><b>HOUSE RENTAL MANAGEMENT SYSTEM</b></label>
+    <p id="p3"><b>This Web Application helps user to register individual home or apartment to assist youin finding the perfect rental home or property. Also we can find your next rental from searchview in your targeted area. This website is designed to attend to all our needs from buyingproperty, selling property or renting/leasing of property in India. Here we found the betteropportunity to invest our value of entire life. Property helps us to maintain the database ofvarious property & agents information. It not only helps us to maintain the agent informationbut here we also allow agents to access the portal updated information across the globalenvironment. We know it is a tiring to call individual property agents, arrange appointment,finding better time for appointment and they will assist you. For such complex process weprovide a one simple online form which requires your basic information and we will assist insort time period.</b></p>
+
+
+
+
+
+</body>
+</html>
